@@ -61,5 +61,9 @@ Output
 docker build -t riverus-pgadmin .
 ```
 
-* 
+* Run container
+```
+docker run -p 5050:5050 -d riverus-pgadmin
+```
+
 
