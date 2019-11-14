@@ -21,6 +21,7 @@ RUN set -ex \
 		gcc \
 		musl-dev \
 		postgresql-dev \
+		python-dev \
 	&& pip --no-cache-dir install \
 		$PGADMIN4_DOWNLOAD_URL \
 	&& apk del .build-deps
