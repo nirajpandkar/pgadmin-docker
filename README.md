@@ -63,7 +63,5 @@ docker build -t riverus-pgadmin .
 
 * Run container
 ```
-docker run -p 5050:5050 -d riverus-pgadmin
+docker run -p 5050:5050 -d riverus-pgadmin && docker cp ./pgadmin `docker ps | grep 'riverus-pgadmin' | awk '{ print $1 }'`:/var/lib
 ```
-
-

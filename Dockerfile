@@ -25,7 +25,8 @@ RUN set -ex \
 		postgresql-dev \
 		make \
 
-	&& pip --no-cache-dir install \
+	&& pip install --upgrade pip \
+	&& pip --no-cache install \
 		$PGADMIN4_DOWNLOAD_URL \
 	&& apk del .build-deps
 
