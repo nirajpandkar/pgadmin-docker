@@ -1,3 +1,6 @@
+**Note**: If you are looking for user/server management in PgAdmin -
+https://nirajpandkar.github.io/2019/12/pgadmin-docker/
+
 ## Installation
 
 ### Install Docker 
