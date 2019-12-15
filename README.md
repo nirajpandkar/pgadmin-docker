@@ -56,6 +56,13 @@ Output
            └─13421 docker-containerd --config /var/run/docker/containerd/containerd.toml
 ```
 
+### Clone and build pgAdmin docker image
+* Clone the repo
+```
+git clone https://github.com/nirajpandkar/pgadmin-docker.git
+cd pgadmin-docker
+```
+
 * Build docker image
 ```
 docker build -t riverus-pgadmin .
@@ -63,5 +70,5 @@ docker build -t riverus-pgadmin .
 
 * Run container
 ```
-docker run -p 5050:5050 -d riverus-pgadmin && docker cp ./pgadmin `docker ps | grep 'riverus-pgadmin' | awk '{ print $1 }'`:/var/lib
+docker run -p 5050:5050 -d riverus-pgadmin
 ```
