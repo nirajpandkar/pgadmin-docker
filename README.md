@@ -2,7 +2,7 @@
 [https://nirajpandkar.github.io/2019/12/pgadmin-docker/](https://nirajpandkar.github.io/2019/12/pgadmin-docker/
 )
 
-*[This is a fork of [https://github.com/fenglc/dockercloud-pgadmin4](https://github.com/fenglc/dockercloud-pgadmin4)*
+*This is a fork of [https://github.com/fenglc/dockercloud-pgadmin4](https://github.com/fenglc/dockercloud-pgadmin4)*
 ## Installation
 
 ### Install Docker 
